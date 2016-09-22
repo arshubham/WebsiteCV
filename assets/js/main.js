@@ -7,7 +7,7 @@ if ('addEventListener' in window) {
     $("#resume").addClass("animated slideInUp");
     $(".avatar").addClass("animated tada");
     $("#hi").addClass("animated zoomInUp");
-    $("#main").addClass("animated flipInY");
+//    $("#main").addClass("animated zoomIn");
 }
 
 document.getElementById("res121").disabled = true;

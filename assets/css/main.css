@@ -359,10 +359,11 @@ ul.social li a:focus {
 /****** Button ******/
 
 .button {
+/*
     display: inline-block;
     height: 2.75em;
     line-height: 3.75em;
-/*    padding: 100px;*/
+    padding: 100px;
     background-color: transparent;
     font-weight: 200;
     border: solid 1px #c8cccf;
@@ -370,6 +371,9 @@ ul.social li a:focus {
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
+*/
+    vertical-align: middle;
+    
 }
 
 .b {
@@ -610,4 +614,25 @@ body.is-ie #wrapper {
 .not-active {
  pointer-events: none;
  cursor: default;
+}
+
+::-webkit-scrollbar {
+width: 5px;
+height: 10px;
+}
+
+
+::-webkit-scrollbar-track-piece  {
+background-color: lightgreen;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+height: 30px;
+background-color: darkgreen;
+}
+
+
+/* vertical or horizontal */
+scrollbar[orient="vertical"] {
+    color:darkgreen !important ;
 }
