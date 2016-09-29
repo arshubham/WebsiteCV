@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url(font-awesome.css);
-
 /****** http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -291,9 +289,12 @@ ul.social {
     list-style: none;
     padding-left: 0;
     margin-top: -0.675em;
-    padding-bottom: 1em;
+    padding-bottom: 1.2px;
     animation-delay: 1s;
-    padding-top: 1em;
+    padding-top: 1.2px;
+}
+ul.social:last-child {
+    padding-bottom: 5em;
 }
 
 ul.social li {
@@ -305,14 +306,14 @@ ul.social li a {
     text-decoration: none;
     position: relative;
     display: block;
-    width: 3.75em;
-    height: 3.75em;
+    width: 2.80em;
+    height: 2.80em;
     border-radius: 100%;
-    border: solid 1px #c8cccf;
-    line-height: 3.75em;
+    border: solid 1px #c8cccf;;
+    line-height: 2.75em;
     overflow: hidden;
     text-align: center;
-    text-indent: 3.75em;
+    text-indent: 2.75em;
     outline: 0;
 }
 
@@ -333,7 +334,7 @@ ul.social li a:before {
     left: 0;
     width: inherit;
     height: inherit;
-    font-size: 1.85rem;
+    font-size: 1.45em;
     line-height: inherit;
     text-align: center;
     text-indent: 0;
@@ -346,7 +347,7 @@ ul.social li a:focus {
 
 @media screen and (max-width: 480px) {
     ul.social li a:before {
-        font-size: 1.5rem;
+        font-size: 1.5em;
     }
 }
 
@@ -359,26 +360,11 @@ ul.social li a:focus {
 /****** Button ******/
 
 .button {
-/*
-    display: inline-block;
-    height: 2.75em;
-    line-height: 3.75em;
-    padding: 100px;
-    background-color: transparent;
-    font-weight: 200;
-    border: solid 1px #c8cccf;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-*/
     vertical-align: middle;
-    
 }
 
 .b {
         padding-bottom: 10px;
-
 }
 
 
@@ -401,6 +387,7 @@ ul.social li a:focus {
     align-self: center;
     align-items: center;
     text-align: center;
+    vertical-align: middle;
 }
 
 #main:hover {
@@ -535,6 +522,7 @@ body.loading #main {
     position: relative;
     padding: 1.25em;
     z-index: 2;
+    vertical-align: middle;
 }
 
 #wrapper > * {

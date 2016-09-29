@@ -1,4 +1,4 @@
-if ('addEventListener' in window) {
+if ("addEventListener" in window) {
     window.addEventListener('load', function () {
         document.body.className = document.body.className.replace(/\bloading\b/, '');
     });
@@ -7,7 +7,6 @@ if ('addEventListener' in window) {
     $("#resume").addClass("animated slideInUp");
     $(".avatar").addClass("animated tada");
     $("#hi").addClass("animated zoomInUp");
-//    $("#main").addClass("animated zoomIn");
 }
 
 document.getElementById("res121").disabled = true;

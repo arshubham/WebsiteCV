@@ -5,8 +5,9 @@
     <title>.:Shubham Arora:.</title>
     <!-- Meta Tags
        ==================================================================== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta charset="utf-8">
+<!--    <meta http-equiv="Content-Type" content="text/html">-->
+   <meta charset="utf-8"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Shubham Arora">
     <meta name="author" content="Shubham Arora">
@@ -14,16 +15,6 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <!-- For Google -->
     <meta name="google" content="notranslate" />
-    <!-- Twitter Card data -->
-    <!--    <meta name="twitter:card" value="summary">-->
-    <!-- Open Graph data -->
-    <!--
-    <meta property="og:title" content="Title Here" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://www.example.com/" />
-    <meta property="og:image" content="http://example.com/image.jpg" />
-    <meta property="og:description" content="Description Here" />
--->
     <!-- End of Meta Tags
        ==================================================================== -->
     <!-- CSS
@@ -31,110 +22,158 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.2.1/material.min.css" integrity="sha256-+SrsN1TOhevlWYY+mdZ28Z2ZpeZ9Go0bDfORn7YbzrA=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
-    <link rel="stylesheet" href="assets/css/jquery-ui.structure.min.css" />
-    <link rel="stylesheet" href="assets/css/jquery-ui.theme.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha256-rByPlHULObEjJ6XQxW/flG2r+22R5dKiAoef+aXWfik=" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.structure.min.css" integrity="sha256-rxais37anKUnpL5QzSYte+JnIsmkGmLG+ZhKSkZkwVM=" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.min.css" integrity="sha256-AjyoyaRtnGVTywKH/Isxxu5PXI0s4CcE0BzPAX83Ppc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.2.4/jquery.contextMenu.min.css" integrity="sha256-b7T9A+csaijtzgkVs5Rk+JRjQPU+O1lsjB5iK/bdyjc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.css" integrity="sha256-NIskOH7eNIjyJFpUeh3DlE9n1amcG/bzVKbWxuIgiH4=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css" integrity="sha256-bAbVeOx7yEIExmRkAybXvyQo2ttTTNl+H2mxhZdGwo0=" crossorigin="anonymous" />
-    <script src='https://www.google.com/recaptcha/api.js'></script>
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
     <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" /> </noscript>
+        <link rel="stylesheet" href="assets/css/noscript.min.css" /> </noscript>
+        
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha256-AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=" crossorigin="anonymous" />
+        
+        <link rel="shortcut icon" type="image/jpg" href="assets/img/rsz_me.jpg"/>
+
+        
     <!-- End of CSS
        ==================================================================== -->
+       
+       <style>
+  .no-js .se-pre-con{display:none}.js #loader{display:block;position:absolute;left:100px;top:0}.se-pre-con{position:fixed;left:0;top:0;width:100%;height:100%;z-index:9999;background:url(assets/img/Preloader.gif) center no-repeat #fff}
+    </style>
 </head>
 
 <body class="loading">
-    <div id="wrapper" class="context-menu-one remodal-bg">
-        <section id="main">
-            <header>
-                <!-- Right aligned menu below button -->
-                <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon"> <i class="material-icons">more_vert</i> </button>
-                <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect " for="demo-menu-lower-right">
-                    <a href="/blog" target="_blank">
-                        <li class="mdl-menu__item">Developer Blog</li>
-                    </a>
-                    <li class="mdl-menu__item" data-remodal-target="modal_achievements">Achievements</li>
-                    <li class="mdl-menu__item">Projects</li>
-                </ul> <span class="avatar"><img src="assets/img/rsz_me.jpg" alt="Shubham Arora" /></span>
-                <!--                              <div id="spinner" class="mdl-spinner mdl-js-spinner is-active"></div>-->
-                <h1><a id="hi" class="" >Hello!</a></h1>
-                <h2>I am <span id="element">Shubham Arora.</span></h2>
-                <p id="sub-tag">web developer/app developer
-                    <br>freelancer/geek</p>
-            </header>
-            <footer>
-                <ul class="social">
-                    <li><a target="_blank" href="https://twitter.com/sudoShubham" class="fa-twitter">Twitter</a></li>
-                    <li><a target="_blank" href="https://github.com/arora-shubham" class="fa-github">GitHub</a></li>
-                    <li><a target="_blank" href="in.linkedin.com/in/shubhamarora868" class="fa-linkedin">LinkedIn</a></li>
-                    <li><a target="_blank" href="mailto:shubham.arora4538@gmail.com" class="fa-envelope">Email</a></li>
-                </ul>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" data-remodal-target="modal_resume" id="resume"> <i id="res1" class="material-icons">&#xE2C4;</i> Resume </button>
-            </footer>
-        </section>
-        <!--- end of main -->
-        <footer id="footer">
-            <ul class="copyright">
-                <li>&copy; Shubham Arora 2016</li>
+<div class="se-pre-con"></div>
+<div id="wrapper" class="context-menu-one remodal-bg">
+    <section id="main">
+        <header>
+            <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon"> <i class="material-icons">more_vert</i> </button>
+            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect " for="demo-menu-lower-right">
+                <a href="/blog">
+                    <li class="mdl-menu__item">Developer Blog</li>
+                </a>
+                <li class="mdl-menu__item" data-remodal-target="modal_achievements">Achievements</li>
+                <li class="mdl-menu__item">Projects</li>
+            </ul> <span class="avatar"><img src="assets/img/rsz_me.jpg" alt="Shubham Arora" /></span>
+            <h1><a id="hi" class="" >Hello!</a></h1>
+            <h2>I am <span id="element">Shubham Arora.</span></h2>
+            <p id="sub-tag">web developer/app developer
+                <br>freelancer/geek</p>
+        </header>
+        <footer>
+            <ul class="social">
+                <li>
+                    <a target="_blank" href="https://twitter.com/sudoShubham" class="fa-twitter" alt="Twitter"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/arora-shubham" class="fa-github" alt="GitHub"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="in.linkedin.com/in/shubhamarora868" class="fa-linkedin" alt="LinkedIn"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="mailto:shubham.arora4538@gmail.com" class="fa-envelope" alt="Email"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.reddit.com/user/arshubham" class="fa-reddit" alt="Reddit"></a>
+                </li>
             </ul>
-            <noscript>For full functionality of this page it is necessary to enable JavaScript. Here are the <a href="https://www.enable-javascript.com" target="_blank"> instructions how to enable JavaScript in your web browser</a></noscript>
+            <ul class="social">
+                <li>
+                    <a target="_blank" href="https://plus.google.com/+ShubhamArora11" class=" fa-google-plus" alt="Google Plus"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://instagram.com/arshubham11" class="fa-instagram" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a href="\blog" class="fa-wordpress" alt="Blog"></a>
+                </li>
+            </ul>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" data-remodal-target="modal_resume" id="resume"> <i id="res1" class="material-icons">&#xE2C4;</i> Resume </button>
         </footer>
-    </div>
-    <!--- end of wrapper -->
-    <div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
-        <div class="mdl-snackbar__text"></div>
-        <button class="mdl-snackbar__action" type="button"></button>
-    </div>
-    <div class="remodal context-menu-two" data-remodal-id="modal_resume">
-        <button data-remodal-action="close" class="remodal-close"></button>
-        <h1>Download Resume</h1>
-        <p>
-            <center>
-                <div class="g-recaptcha" data-sitekey="6LcAfBsTAAAAABac97a7W7HkM5OIqRYXtLK0wIbf" data-callback="enableBtn"></div>
-            </center>
-        </p>
-        <br>
-        <button data-remodal-action="cancel" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored remodal-canel">Cancel</button>
-        <a id="res_a" target="_blank" href="https://google.com">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="res121"><i class="fa fa-cloud-download"></i> Download</button>
-        </a>
-    </div>
-    <div class="remodal context-menu-two" data-remodal-id="modal_achievements">
-        <button data-remodal-action="close" class="remodal-close"></button>
-        <h1>Achievements Here...</h1> </div>
-    <div class="remodal context-menu-two" data-remodal-id="modal_view_source">
-        <button data-remodal-action="close" class="remodal-close"></button>
-        <h1>View Source</h1>
-        <p> Do you like my work on this website? Want to view the source code?
-            <br> Head over to my GitHub page and download the entire code. Don't forget to check out some other work I have been doing. </p>
-        <br>
-        <button data-remodal-action="cancel" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored remodal-canel">Cancel</button>
-        <a target="_blank" href="https://github.com/arora-shubham">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">GitHub</button>
-        </a>
-    </div>
-    <!-- Scripts
-       ==================================================================== -->
-    <!--[if lte IE 8]>
-    <script src="assets/js/respond.min.js"></script>
-    <script src="assets/js/html5shiv.js"></script>
-    <![endif]-->
-    <!--    <script src="assets/js/jquery.js"></script>-->
-    <script src="assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="assets/js/jquery-ui.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.2.4/jquery.contextMenu.min.js" integrity="sha256-quZ/bffekHX5fn8o6SG0/v6evCW9Ajd5a/2qZLwOpJQ=" crossorigin="anonymous"></script>
-    <script src="assets/js/context-menu.js" type="text/javascript"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js" integrity="sha256-wh6ioOwanEhobFjUgbMI4kf6n3R9IggJnOWY74I+VVw=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js" integrity="sha256-e0kiIIPqK0KlTvOvRO/MnFWCUyad3XzN7sPs11vgkdM=" crossorigin="anonymous"></script>
-    <script src="assets/js/typing.js" type="text/javascript"></script>
-    <script src="assets/js/main.js" type="text/javascript"></script>
-    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    </section>
+    <footer id="footer">
+        <ul class="copyright">
+            <li>&copy; Shubham Arora 2016</li>
+        </ul>
+        <noscript>For full functionality of this page it is necessary to enable JavaScript. Here are the <a href="https://www.enable-javascript.com" target="_blank"> instructions how to enable JavaScript in your web browser</a></noscript>
+    </footer>
+</div>
+<div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<div class="remodal context-menu-two" data-remodal-id="modal_resume">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h1>Download Resume</h1>
+    <center>
+        <div class="g-recaptcha" data-sitekey="6LexqQsTAAAAAFoO5OhmVnY6s_yNBGjUqDHhO8Bg" data-callback="enableBtn"></div>
+    </center>
+    <br>
+    <button data-remodal-action="cancel" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored remodal-canel">Cancel</button>
+    <a id="res_a" target="_blank" href="https://shubhamarora.in/assets/Shubham Arora.pdf">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="res121"><i class="fa fa-cloud-download"></i> Download</button>
+    </a>
+</div>
+<div class="remodal context-menu-two" data-remodal-id="modal_achievements">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h1>Achievements Here...</h1> </div>
+<div class="remodal context-menu-two" data-remodal-id="modal_view_source">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h1>View Source</h1>
+    <p> Do you like my work on this website? Want to view the source code?
+        <br> Head over to my GitHub page and download the entire code. Don't forget to check out some other work I have been doing. </p>
+    <br>
+    <button data-remodal-action="cancel" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored remodal-canel">Cancel</button>
+    <a target="_blank" href="https://github.com/arora-shubham">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">GitHub</button>
+    </a>
+</div>
+    
+        
+          <!--[if lte IE 8]>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+       <![endif]-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.2.4/jquery.contextMenu.min.js" integrity="sha256-quZ/bffekHX5fn8o6SG0/v6evCW9Ajd5a/2qZLwOpJQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js" integrity="sha256-wh6ioOwanEhobFjUgbMI4kf6n3R9IggJnOWY74I+VVw=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js" integrity="sha256-e0kiIIPqK0KlTvOvRO/MnFWCUyad3XzN7sPs11vgkdM=" crossorigin="anonymous"></script>
+<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+<script async src='https://www.google.com/recaptcha/api.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+    
+    <script>
+        $(function(){$("#element").typed({strings:["a^1000 student.","a web developer.","a web designer.","an app developer.","a freelancer.","a geek.","Shubham Arora."],showCursor:!0,typeSpeed:20,backDelay:1500,startDelay:200,callback:function(){$("#sub-tag").css("opacity","1"),$("#sub-tag").addClass("animated zoomIn")}})});
+    </script>
+<script>
+    function enableBtn(){document.getElementById("res121").disabled=!1,$("#res_a").removeClass("not-active")}"addEventListener"in window&&(window.addEventListener("load",function(){document.body.className=document.body.className.replace(/\bloading\b/,"")}),document.body.className+=navigator.userAgent.match(/(MSIE|rv:11\.0)/)?" is-ie":"",$(".social").addClass("animated zoomIn"),$("#resume").addClass("animated slideInUp"),$(".avatar").addClass("animated tada"),$("#hi").addClass("animated zoomInUp")),document.getElementById("res121").disabled=!0,$("#res_a").addClass("not-active");
+    $(".se-pre-con").fadeOut("slow");
+    </script>
+    <script>
+    $(function(){$.contextMenu({selector:".context-menu-one",callback:function(a,b){},items:{cut:{name:"Cut",icon:"/assets/fonts/cut.svg",callback:function(a,b){window.getSelection().toString();document.execCommand("copy")},accesskey:"u"},copy:{name:"Copy",icon:"/assets/fonts/copy.svg",callback:function(a,b){window.getSelection().toString();document.execCommand("copy")},accesskey:"c"},source:{name:"View Source",icon:"source",callback:function(a,b){navigator.userAgent.match(/Chrome|AppleWebKit/)?(window.location.href="#modal_view_source",window.location.href="#modal_view_source"):window.location.hash="modal_view_source"},accesskey:"s"},sep1:"---------",close:{name:"Close",icon:"",accesskey:"l"}}}),$(".context-menu-one").on("click",function(a){console.log("clicked",this)})}),$(function(){$.contextMenu({selector:".context-menu-two",callback:function(a,b){},items:{cut:{name:"Cut",icon:"/assets/fonts/cut.svg",callback:function(a,b){window.getSelection().toString();document.execCommand("copy")},accesskey:"u"},copy:{name:"Copy",icon:"/assets/fonts/copy.svg",callback:function(a,b){window.getSelection().toString();document.execCommand("copy")},accesskey:"c"},sep1:"---------",close:{name:"Close",icon:"",accesskey:"l"}}}),$(".context-menu-one").on("click",function(a){console.log("clicked",this)})});
+    </script>
+     <script>
+    var $buoop = {vs:{i:11,f:35,o:30,s:7,c:40},mobile:false,c:4}; 
+function $buo_f(){ 
+ var e = document.createElement("script"); 
+ e.src = "//browser-update.org/update.min.js"; 
+ document.body.appendChild(e);
+};
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+catch(e){window.attachEvent("onload", $buo_f)}
+    </script>
+      
     <!-- End Of Scripts
        ==================================================================== -->
+
 </body>
 
 </html>
