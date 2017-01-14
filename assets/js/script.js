@@ -13,7 +13,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 /* ==================== JavaScript Index ====================
-1. Typed JS 
+1. Typed JS
 2. Recaptcha Validation
 3. Page Load animations and Defaults
 4. Lazy Load JavaScript
@@ -171,8 +171,11 @@ setTimeout(function () {
 setTimeout(function () {
     $(".linkedin").addClass("fa-linkedin animated zoomIn")
 }, 1900);
+// setTimeout(function () {
+//     $(".instagram").addClass("fa-instagram animated zoomIn")
+// }, 2100);
 setTimeout(function () {
-    $(".instagram").addClass("fa-instagram animated zoomIn")
+    $(".telegram").addClass(" fa-paper-plane-o animated zoomIn")
 }, 2100);
 setTimeout(function () {
     $(".envelope").addClass("fa-envelope animated zoomIn")
