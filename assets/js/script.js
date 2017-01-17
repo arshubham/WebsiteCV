@@ -58,7 +58,7 @@ function downloadJSAtOnload() {
     js1.src = "https://www.google.com/recaptcha/api.js";
     document.body.appendChild(js1);
     var js2 = document.createElement("script");
-    js2.src = "https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js";
+    js2.src = "https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js";
     document.body.appendChild(js2);
 }
 if (window.addEventListener) {
@@ -171,9 +171,6 @@ setTimeout(function () {
 setTimeout(function () {
     $(".linkedin").addClass("fa-linkedin animated zoomIn")
 }, 1900);
-// setTimeout(function () {
-//     $(".instagram").addClass("fa-instagram animated zoomIn")
-// }, 2100);
 setTimeout(function () {
     $(".telegram").addClass(" fa-paper-plane-o animated zoomIn")
 }, 2100);
